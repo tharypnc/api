@@ -22,7 +22,7 @@ trait ExceptionTrait {
 
         }
         
-        return parent::render($request, $exception,404);
+        return parent::render($request, $e,404);
     }
 
     public function isModel($e){
